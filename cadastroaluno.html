@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Aluno(a)</h1>
+        <div id="app">
+            <p>Nome: <input type="text" id="nome" required></p>
+            <p>Sexo:
+                <select id="sexo">
+                    <option value="homem">Masculino</option>
+                    <option value="mulher">Feminino</option>
+                </select>
+            </p>
+            <p>Data de Nascimento: <input type="date" id="dataNascimento" required></p>
+            <p>Identidade: <input type="text" id="identidade" required></p>
+            <p>Órgão Emissor: <input type="text" id="orgao" required></p>
+            <p>CPF: <input type="text" id="cpf" maxlength="11" required></p>
+            <p>Naturalidade: <input type="text" id="naturalidade" required></p>
+            <p>Nome do Pai: <input type="text" id="nomePai" required></p>
+            <p>Nome da Mãe: <input type="text" id="nomeMae" required></p>
+            <p>Rua: <input type="text" id="rua" required> Número: <input type="text" id="numeroRua" size="4" required></p>
+            <p>Cidade: <input type="text" id="cidade" required> UF: <input type="text" id="estado" size="2" maxlength="2" required></p>
+            <p>CEP: <input type="text" id="cep" required></p>
+            <p>Telefone: <input type="text" id="telefone" required></p>
+            <p>Celular: <input type="text" id="celular" required></p>
+            <p>Email: <input type="email" id="email" required></p>
+            <p>Foto: <input type="file" id="foto" accept="image/*"></p>
+            <button type="button" class="button" onclick="salvarAluno()">Cadastrar Aluno(a)</button>
+        </div>
+    </div>
+    <script src="cadastroaluno2.js"></script>
+</body>
+</html>

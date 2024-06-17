@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body{
+            background-color: #dddfdd;
+        }
+        .parallax-container {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+        }
+        .button-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .button-container .btn {
+            margin: 10px;
+        }
+        .parallax-image {
+            max-height: 300px;
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .brand-logo {
+            display: flex;
+            align-items: center;
+        }
+        .brand-logo img {
+            height: 60px; 
+            margin-right: 10px;
+        }
+        .container main {
+            padding: 20px 0;
+        }
+        footer {
+            background: #4caf50;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        footer p {
+            margin: 0;
+        }
+        .aside-image {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper green lighten-2">
+            <div class="container">
+                <a href="#" class="brand-logo">
+                    <img src="logo.png" alt="Logo da Escola"> ESCOLA N&S
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <main>
+            <div class="content">
+                <h2 class="center" style="color: rgb(0, 0, 0);">Missão</h2>
+                <p style="color: rgb(0, 0, 0); font-size:20;font-family: Arial;">
+                    À escola cabe a responsabilidade de organizar,
+                    sistematizar e desenvolver as capacidades criativas,
+                    científicas, étnicas e tecnológicas de uma nação, 
+                    proporcionando à sociedade, desenvolvimento educacional 
+                    e conseqüente desenvolvimento social.
+                </p>
+            </div>
+        </main>
+        <div class="parallax-container">
+            <div class="button-container">
+                <a href="cadastroaluno.html" class="btn green">Cadastrar Alunos</a>
+                <a href="detalhesaluno.html" class="btn green">Lista de Alunos Cadastrados</a>
+            </div>
+            <img src="123.png" alt="Imagem de Fundo" class="parallax-image">
+        </div>
+    </div>
+    <footer>
+        <p>Contato: (33) 3721-6983</p>
+        <p>Endereço: Rua Capitão Marcelino, nº 890, Centro.</p>
+        <p>&copy; 2024 Escola N&S. Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="cadastroaluno2.js"></script>
+</body>
+</html>
